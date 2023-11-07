@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Coord
+comment0.text=\n\ Write\ a\ description\ of\ class\ Coord\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=row\ col
+comment1.target=Coord(char,\ int)
+comment2.params=row\ col
+comment2.target=Coord(int,\ int)
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyTest
+comment0.text=\n\ The\ test\ class\ MyTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ testGetFloorSize()
+comment1.text=\n\ I\ was\ unable\ to\ get\ the\ exact\ spacing\ between\ the\ lines\ for\ this\ \n\ test\ to\ run\ properly\ and\ pass.\n
+comment2.params=
+comment2.target=void\ testGetFloorValue()
+comment3.params=
+comment3.target=void\ testIsValidMove()
+comment4.params=
+comment4.target=void\ testMove()
+numComments=5

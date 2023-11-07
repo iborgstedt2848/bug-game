@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Bug
+comment0.text=\n\ Write\ a\ description\ of\ class\ Bug\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=floorSize\ maxMoves\ startingLocation
+comment1.target=Bug(int,\ int,\ Coord)
+comment1.text=\n\ Constructor\ that\ creates\ a\ new\ floor\ of\ floorSize\ and\ initializes\ the\ \n\ 8\ adjacent\ cells\ as\ new\ coordinates.\n
+comment2.params=maxMoves\ startingLocation
+comment2.target=Bug(int,\ Coord)
+comment3.params=
+comment3.target=void\ walk()
+comment3.text=\n\ This\ private\ walk()\ method\ starts\ by\ creating\ a\ new\ Coord\ object\ x,\n\ which\ is\ not\ a\ valid\ move.\ This\ is\ a\ temporary\ location\ because\ we\n\ do\ not\ yet\ know\ if\ the\ location\ is\ valid.\ It\ enters\ a\ while\ loop\ that\n\ executes\ as\ longa\ s\ the\ move\ is\ not\ valid.\ It\ creates\ int\ i,\ which\n\ randomizes\ the\ move\ by\ selecting\ one\ of\ the\ coords\ from\ the\ adjacentCells\n\ array.\ It\ sets\ the\ row\ of\ coord\ x\ equal\ to\ the\ row\ of\ the\ location\ plus\n\ the\ row\ of\ the\ adjacentCell\ (does\ the\ same\ for\ col),\ and\ only\ updates\n\ location\ after\ breaking\ out\ of\ the\ loop.\ It\ calls\ move()\ and\ increments\n\ currentMoves\ once\ the\ move\ is\ executed.\n
+comment4.params=
+comment4.target=boolean\ isFinishedWalking()
+comment4.text=\n\ This\ private\ method\ returns\ a\ boolean\ that\ tells\ us\ whether\ or\ not\ the\ bug\n\ has\ finished\ walking.\ Returns\ true\ if\ the\ currentMoves\ is\ equal\ to\ maxMoves.\n\ Otherwise\ (meaning\ there\ are\ more\ moves\ left)\ it\ runs\ through\ the\ entire\ floor\ \n\ and\ checks\ to\ see\ if\ there\ are\ any\ empty\ cells.\ If\ so,\ it\ returns\ false.\n
+comment5.params=
+comment5.target=void\ play()
+comment5.text=\n\ This\ public\ method\ keeps\ the\ bug\ walking\ as\ long\ as\ the\ bug\ is\ not\ finished\n\ walking.\ Executed\ with\ a\ while\ loop.\n
+comment6.params=
+comment6.target=boolean\ isWinner()
+comment6.text=\n\ Determines\ that\ the\ player\ has\ won\ if\ the\ bug\ is\ finished\ walking\n\ and\ still\ has\ moves\ left\ over\ (currentMoves\ <\ maxMoves).\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ toString()\ method\ which\ returns\ one\ of\ two\ messages\ dependng\ on\ whether\n\ or\ not\ the\ player\ has\ won.\n
+numComments=8

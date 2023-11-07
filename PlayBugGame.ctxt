@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PlayBugGame
+comment0.text=\n\ Write\ a\ description\ of\ class\ PlayBugGame\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=PlayBugGame()
+comment1.text=\n\ This\ constructor\ creates\ a\ new\ Converse\ object\ x\ and\ a\ new\ GameStats\ object\ score.\ Then\ it\ enters\n\ a\ while\ loop\ that\ executes\ as\ long\ as\ none\ of\ the\ methods\ from\ the\ Converse\ class\ return\ true\ (aka\n\ the\ user\ has\ asked\ to\ quit).\ In\ the\ while\ loop,\ it\ creates\ a\ new\ Bug\ object\ buggie,\ which\ has\ the\n\ floorSize,\ maxTotalMoves,\ and\ row/col\ from\ the\ Converse\ class\ (given\ by\ user\ input).\ It\ calls\n\ play()\ and\ isWinner()\ on\ buggie\ and\ then\ it\ calls\ win()\ or\ lose()\ on\ score\ depending\ on\ whether\ or\ not\n\ isWinner\ returns\ true\ or\ false.\ Finally,\ it\ outputs\ both\ toString()\ methods\ to\ show\ the\ user\ the\ floor\n\ and\ tell\ the\ user\ whether\ or\ not\ buggie\ has\ won\ or\ lost\ as\ well\ as\ the\ total\ amount\ of\ games\ played.\n\ It\ is\ designed\ to\ continue\ playing\ as\ long\ as\ the\ user\ does\ not\ enter\ quit.\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
